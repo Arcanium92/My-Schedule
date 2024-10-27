@@ -39,8 +39,6 @@ th, td {
 }
 /*-- End table settings --*/
 
-/*-- --*/
-
 .container {
     background-color: whitesmoke;
     margin: auto;
@@ -51,6 +49,5 @@ th, td {
 }
 
 h1, p {
-    margin-left: 8%;
     color: black;
 }
