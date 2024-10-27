@@ -1,8 +1,8 @@
 body {
-    background-image: url(clock_background.jpg);
+    background-image: url(fall.jpg);
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     font-style: italic;
@@ -10,26 +10,28 @@ body {
 
 /*-- Table settings --*/
 table {
-    background-image: url(parchment.jpg);
+    background-color: whitesmoke;
     background-size: cover;
     margin: auto;
-    margin-top: 13%;
+    margin-top: 200px;
 }
 
 table, th, td {
-    border: 4px black solid; width: 50%; text-align: center;
+    border: 4px black solid;
+    width: 50%;
+    text-align: center;
 }
 
 tr:nth-child(even) {
-    background-color: #eb8d88;
+    background-color: #eec170;
 }
 
 tr:nth-child(odd) {
-    background-color: #f8b988;
+    background-color: #f58549;
 }
 
 th {
-    background-color: #8f709e;
+    background-color: #585123;
 }
 
 th, td {
@@ -40,11 +42,11 @@ th, td {
 /*-- --*/
 
 .container {
-    background-image: url(parchment.jpg);
+    background-color: whitesmoke;
     margin: auto;
-    margin-top: 5%;
-    width: 50%;
-    align-items: center;
+    margin-top: 30px;
+    width: 500px;
+    text-align: center;
     border: 4px black solid;
 }
 
